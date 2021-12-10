@@ -45,7 +45,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "naiara-abaroa",
             "company": "Front-end Designer @ Wise",
             "image": "/speakers/nabaroa.png",
@@ -62,7 +62,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "pablo-garaizar",
             "company": "Lecturer @ Universidad de Deusto",
             "image": "/speakers/pabloG.png",
@@ -79,7 +79,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "cata-oyaneder",
             "company": "Software Engineer @ DAZN",
             "image": "/speakers/cataO.png",
@@ -96,7 +96,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "edu-tomas",
             "company": "Developer @ Plain Concepts",
             "image": "/speakers/eduT.png",
@@ -113,7 +113,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "bea-martin",
             "company": "Chief Digital Officer (CDO) @ BBDO-España",
             "image": "/speakers/beaM.png",
@@ -130,7 +130,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "carlos-hernandez",
             "company": "CEO @ Quaderno",
             "image": "/speakers/carlosH.png",
@@ -147,7 +147,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "teodora-bozheva",
             "company": "",
             "image": "/speakers/teodoraB.png",
@@ -164,7 +164,7 @@ module.exports =
             }
         },
         {
-            "visible": true,
+            "visible": false,
             "slug": "jorge-uriarte",
             "company": "",
             "image": "/speakers/jorgeU.png",
@@ -182,7 +182,7 @@ module.exports =
         }
     ],
     "agenda": {
-        "visible": true,
+        "visible": false,
         "time_slots": ["9:00-9:20", "9:30-10:20", "10:30-11:20", "11:30-12:00", "12:00-12:50", "13:00-13:50", ">14:00"],
         "tracks":[
             {
@@ -277,7 +277,7 @@ module.exports =
     ],
     "sponsor_blocks": [
         {
-            "visible": true,
+            "visible": false,
             "name": "Con la colaboración de",
             "height_em": "10",
             "sponsors": [
@@ -289,7 +289,7 @@ module.exports =
             ]
         },
         {
-            "visible": true,
+            "visible": false,
             "name": "Patrocinadores",
             "height_em": "5",
             "sponsors": [
