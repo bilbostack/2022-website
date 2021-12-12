@@ -41,16 +41,17 @@ export default function PageTemplate({
             <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
             <link rel="manifest" href="/manifest.json" />
+            <meta name="robots" content="noindex,nofollow" />
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
             <meta name="theme-color" content="#ffffff" ></meta>
 
             <meta property="og:image" content="http://bilbostack.com/bilbostack-share.png" />
-    <meta property="og:image:width" content="982" />
-    <meta property="og:image:height" content="517" />
-    <meta property="og:url" content="http://bilbostack.com"/>
-    <meta property="og:title" content="Bilbostack 2022 - 29 de Enero en Bilbao"/>
-    <meta property="og:description" content="Profesionales referencia del sector tecnológico vendrán a Bilbao a compartir sus conocimientos
+            <meta property="og:image:width" content="982" />
+            <meta property="og:image:height" content="517" />
+            <meta property="og:url" content="http://bilbostack.com"/>
+            <meta property="og:title" content="Bilbostack 2022 - 29 de Enero en Bilbao"/>
+            <meta property="og:description" content="Profesionales referencia del sector tecnológico vendrán a Bilbao a compartir sus conocimientos
                             sobre las diferentes temáticas más relevantes en la actualidad."/>
         </Helmet>
 
