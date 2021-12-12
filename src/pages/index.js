@@ -45,7 +45,7 @@ export default ({data}) => {
             <h2>{configData.home.title} <span>{configData.conference_hashtag}</span></h2>
             <p>{configData.home.description}</p>
             <p>
-                <a href="#agenda">{configData.home.agenda_cta_text}</a>
+              {configData.agenda.visible ? <a href="#agenda">{configData.home.agenda_cta_text}</a> : ""}
             </p>
         </section>
 
@@ -53,7 +53,10 @@ export default ({data}) => {
 
         <section id="speakers" class="row">
             {configData.speakers.map((speaker, i) => {
-                return (<div class="col-lg-4 col-sm-6 col-xs-12"><SpeakerCard speaker={speaker}/></div>)
+                if (speaker.visible === "true")
+                  return (<div class="col-lg-4 col-sm-6 col-xs-12"><SpeakerCard speaker={speaker}/></div>)
+                else
+                  return (<div class="col-lg-4 col-sm-6 col-xs-12"></div>)
             })}
         </section>
 
@@ -86,6 +89,7 @@ export const query = graphql`
           cta_url
         }
         speakers {
+          visible,
           slug,
           name,
           image,

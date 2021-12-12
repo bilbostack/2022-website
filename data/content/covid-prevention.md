@@ -12,12 +12,13 @@ Como siempre, tu seguridad es de suma importancia para nosotros, y estamos traba
 
 Por mandato municipal, todos los asistentes al evento y todo el personal deberán mostrar una prueba de que han recibido al menos una dosis de la vacuna COVID-19 autorizada para uso de emergencia por la FDA o la OMS. Puede obtener más información sobre las pruebas de vacunación aceptadas y las adaptaciones razonables en el sitio web Sanidad https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/home.htm  
 
-## Mayores precauciones de seguridad en el recinto
+## Precauciones de seguridad en el recinto
 - Proporcionamos desinfectantes de manos montados en la pared en todo el espacio del evento.
 - El local también educa y forma a todos sus empleados en todos los protocolos y directrices de COVID-19.
 - Las sillas se desinfectan antes de que los invitados se sienten.
 - El servicio de catering se ofrecerá de acuerdo con las últimas orientaciones del gobierno.
 - Cuando se acerque la fecha del evento, se informará a todos los asistentes sobre los requisitos de entrada y las iniciativas de seguridad. 
 
-Nuestra prioridad es ofrecer un evento seguro que reúna a la comunidad de BilboStack y esperamos verte allí. 
-Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros directamente: info@bilbostack.com
+**Nuestra prioridad es ofrecer un evento seguro que reúna a la comunidad de BilboStack y esperamos verte allí.**  
+ 
+**Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros directamente: info@bilbostack.com**

@@ -22,26 +22,26 @@ module.exports =
         "cta_url": "https://bilbostack.com"
     },
     "home": {
-        "title": "Nuestro programa",
-        "description": "Por décimo año 'consecutivo' (because COVID :/ ), profesionales referentes en el sector tecnológico a nivel nacional e internacional vendrán a Bilbao a compartir sus conocimientos y experiencia en los temas más punteros.",
+        "title": "El programa de",
+        "description": "Por décimo año 'consecutivo' (COVID mediante :/), profesionales referentes en el sector tecnológico a nivel nacional e internacional vendrán a Bilbao a compartir sus conocimientos y experiencia en los temas más punteros.",
         "agenda_cta_text": "Ver la agenda"
     },
     "speakers": [
         {
-            "visible": true,
+            "visible": false,
             "slug": "señor-lobo",
             "company": "Señor Lobo en LaVida TM",
             "image": "/speakers/señor-lobo.png",
             "name": "Señor Lobo",
-            "bio": "",
+            "bio": " ",
             "social": {
-                "twitter": "",
-                "linkedin": "",
-                "github": ""
+                "twitter": "https://twitter.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "github": "https://github.com/"
             },
             "talk": {
-                "title": "Cómo señor Lobear bien fuerte",
-                "description": "Hablará de cosas de Señor Lobo, joder"
+                "title": "Cómo Señor Lobear bien fuerte",
+                "description": "Hablará de cosas de Señor Lobo, ¡jopetas!"
             }
         },
         {
@@ -50,7 +50,7 @@ module.exports =
             "company": "Front-end Designer @ Wise",
             "image": "/speakers/nabaroa.png",
             "name": "Naiara Abaroa",
-            "bio": "",
+            "bio": " ",
             "social": {
                 "twitter": "https://twitter.com/nabaroa",
                 "linkedin": "https://www.linkedin.com/in/naiaraabaroa/",
@@ -67,7 +67,7 @@ module.exports =
             "company": "Lecturer @ Universidad de Deusto",
             "image": "/speakers/pabloG.png",
             "name": "Pablo Garaizar",
-            "bio": "",
+            "bio": " ",
             "social": {
                 "twitter": "https://twitter.com/PGaraizar",
                 "linkedin": "https://www.linkedin.com/in/pablogaraizar/",
@@ -84,7 +84,7 @@ module.exports =
             "company": "Software Engineer @ DAZN",
             "image": "/speakers/cataO.png",
             "name": "Cata Oyaneder",
-            "bio": "",
+            "bio": " ",
             "social": {
                 "twitter": "https://twitter.com/cataflu",
                 "linkedin": "https://www.linkedin.com/in/cataflu/",
@@ -101,7 +101,7 @@ module.exports =
             "company": "Developer @ Plain Concepts",
             "image": "/speakers/eduT.png",
             "name": "Edu Tomás",
-            "bio": "",
+            "bio": " ",
             "social": {
                 "twitter": "https://twitter.com/eiximenis",
                 "linkedin": "https://www.linkedin.com/in/etomas/",
@@ -118,7 +118,7 @@ module.exports =
             "company": "Chief Digital Officer (CDO) @ BBDO-España",
             "image": "/speakers/beaM.png",
             "name": "Bea Martín",
-            "bio": "",
+            "bio": " ",
             "social": {
                 "twitter": "https://twitter.com/zigiella",
                 "linkedin": "https://www.linkedin.com/in/beatrizmartin/",
@@ -135,15 +135,15 @@ module.exports =
             "company": "CEO @ Quaderno",
             "image": "/speakers/carlosH.png",
             "name": "Carlos Hernández",
-            "bio": "",
+            "bio": " ",
             "social": {
-                "twitter": "",
-                "linkedin": "",
-                "github": ""
+                "twitter": "https://twitter.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "github": "https://github.com/"
             },
             "talk": {
-                "title": "",
-                "description": ""
+                "title": "TBD",
+                "description": "TBD"
             }
         },
         {
@@ -152,32 +152,32 @@ module.exports =
             "company": "",
             "image": "/speakers/teodoraB.png",
             "name": "Teodora Bozheva",
-            "bio": "",
+            "bio": " ",
             "social": {
-                "twitter": "",
-                "linkedin": "",
-                "github": ""
+                "twitter": "https://twitter.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "github": "https://github.com/"
             },
             "talk": {
-                "title": "",
-                "description": ""
+                "title": "TBD",
+                "description": "TBD"
             }
         },
         {
             "visible": false,
-            "slug": "jorge-uriarte",
+            "slug": "edu-ferro",
             "company": "",
-            "image": "/speakers/jorgeU.png",
-            "name": "Jorge Uriarte",
-            "bio": "",
+            "image": "/speakers/eduF.png",
+            "name": "Eduardo Ferro",
+            "bio": " ",
             "social": {
-                "twitter": "",
-                "linkedin": "",
-                "github": ""
+                "twitter": "https://twitter.com/",
+                "linkedin": "https://www.linkedin.com/",
+                "github": "https://github.com/"
             },
             "talk": {
-                "title": "",
-                "description": ""
+                "title": "TBD",
+                "description": "TBD"
             }
         }
     ],
@@ -323,28 +323,34 @@ module.exports =
     ],
     "footer_links": [
         {
-            "link": "/code-of-conduct",
-            "title": "Código de conducta"
-        },
-        {
-            "link": "/covid-prevention",
-            "title": "Protocolo prevención COVID-19"
-        },
-        {
             "link": "/#agenda",
-            "title": "Agenda"
+            "title": "Agenda",
+            "external": false
         },
         {
             "link": "/indications",
-            "title": "Cómo llegar"
+            "title": "Cómo llegar",
+            "external": false
+        },
+        {
+            "link": "/code-of-conduct",
+            "title": "Código de conducta",
+            "external": false
+        },
+        {
+            "link": "/covid-prevention",
+            "title": "Protocolo prevención COVID-19",
+            "external": false
         },
         {
             "link": "mailto:info@bilbostack.com",
-            "title": "Contacto"
+            "title": "Contacto",
+            "external": true
         },
         {
             "link": "https://2020.bilbostack.com",
-            "title": "Edición del 2020"
+            "title": "Edición del 2020",
+            "external": "true"
         }
 
     ]
