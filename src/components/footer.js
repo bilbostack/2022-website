@@ -20,7 +20,8 @@ export default () => (
                 },
                 footer_links {
                   link,
-                  title
+                  title,
+                  external
                 },
                 location {
                   gmaps_iframe_url,

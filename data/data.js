@@ -23,7 +23,7 @@ module.exports =
     },
     "home": {
         "title": "El programa de",
-        "description": "Por décimo año 'consecutivo' (COVID mediante :/), profesionales referentes en el sector tecnológico a nivel nacional e internacional vendrán a Bilbao a compartir sus conocimientos y experiencia en los temas más punteros.",
+        "description": "Por décimo año 'consecutivo' (COVID mediante 😔), profesionales referentes en el sector tecnológico a nivel nacional e internacional vendrán a Bilbao a compartir sus conocimientos y experiencia en los temas más punteros.",
         "agenda_cta_text": "Ver la agenda"
     },
     "speakers": [
@@ -334,27 +334,27 @@ module.exports =
         {
             "link": "/#agenda",
             "title": "Agenda",
-            "external": false
+            "external": 'false'
         },
         {
             "link": "/indications",
             "title": "Cómo llegar",
-            "external": false
+            "external": 'false'
         },
         {
             "link": "/code-of-conduct",
             "title": "Código de conducta",
-            "external": false
+            "external": 'false'
         },
         {
             "link": "/covid-prevention",
             "title": "Protocolo prevención COVID-19",
-            "external": false
+            "external": 'false'
         },
         {
             "link": "mailto:info@bilbostack.com",
             "title": "Contacto",
-            "external": true
+            "external": 'true'
         },
         {
             "link": "https://2020.bilbostack.com",
