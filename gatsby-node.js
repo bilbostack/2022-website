@@ -38,43 +38,43 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const result = await graphql(
     `
     {
-    site {
-        siteMetadata {
-        canonical_url,
-        conference_hashtag,
-        logo,
-        conference_name,
-        conference_date,
-        conference_claim
-        home {
-            title
-            description
-            agenda_cta_text
-        }
-        header_banner {
-          cta_pre_text,
-          cta_text,
-          cta_url
-        }
-        speakers {
-            slug,
-            image,
-            name,
-            bio,
-            company,
-            social {
-                twitter,
-                linkedin,
-                github,
-                web
+        site {
+            siteMetadata {
+                canonical_url,
+                conference_hashtag,
+                logo,
+                conference_name,
+                conference_date,
+                conference_claim
+                home {
+                    title
+                    description
+                    agenda_cta_text
+                }
+                header_banner {
+                cta_pre_text,
+                cta_text,
+                cta_url
+                }
+                speakers {
+                    slug,
+                    image,
+                    name,
+                    bio,
+                    company,
+                    social {
+                        twitter,
+                        linkedin,
+                        github,
+                        web
+                    }
+                    talk{
+                        title,
+                        description
+                    }
+                }
             }
-                talk{
-                title,
-                description
-            }
         }
-        }
-    }
     }
     `
     )

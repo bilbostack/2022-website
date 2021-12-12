@@ -33,11 +33,12 @@ module.exports =
             "company": "Señor Lobo en LaVida TM",
             "image": "/speakers/señor-lobo.png",
             "name": "Señor Lobo",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/",
                 "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/"
+                "github": "https://github.com/",
+                "web": "-"
             },
             "talk": {
                 "title": "Cómo Señor Lobear bien fuerte",
@@ -50,11 +51,12 @@ module.exports =
             "company": "Front-end Designer @ Wise",
             "image": "/speakers/nabaroa.png",
             "name": "Naiara Abaroa",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/nabaroa",
                 "linkedin": "https://www.linkedin.com/in/naiaraabaroa/",
-                "github": "https://github.com/nabaroa"
+                "github": "https://github.com/nabaroa",
+                "web": "-"
             },
             "talk": {
                 "title": "10 años de CSS en un pomodoro",
@@ -67,11 +69,12 @@ module.exports =
             "company": "Lecturer @ Universidad de Deusto",
             "image": "/speakers/pabloG.png",
             "name": "Pablo Garaizar",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/PGaraizar",
                 "linkedin": "https://www.linkedin.com/in/pablogaraizar/",
-                "github": "https://github.com/txipi"
+                "github": "https://github.com/txipi",
+                "web": "-"
             },
             "talk": {
                 "title": "¿Cómo se diseña una experiencia lúdica?",
@@ -84,11 +87,12 @@ module.exports =
             "company": "Software Engineer @ DAZN",
             "image": "/speakers/cataO.png",
             "name": "Cata Oyaneder",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/cataflu",
                 "linkedin": "https://www.linkedin.com/in/cataflu/",
-                "github": "https://github.com/cat2608"
+                "github": "https://github.com/cat2608",
+                "web": "-"
             },
             "talk": {
                 "title": "Seeking to the Action",
@@ -101,14 +105,15 @@ module.exports =
             "company": "Developer @ Plain Concepts",
             "image": "/speakers/eduT.png",
             "name": "Edu Tomás",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/eiximenis",
                 "linkedin": "https://www.linkedin.com/in/etomas/",
-                "github": "https://github.com/eiximenis"
+                "github": "https://github.com/eiximenis",
+                "web": "-"
             },
             "talk": {
-                "title": "Kubernetes Do’s, don’ts and why’s",
+                "title": "Kubernetes Do's, don'ts and why's",
                 "description": "Kubernetes está de moda, sin duda alguna. Casi todo el mundo se plantea si debería usarlo o no y qué ventajas o inconvenientes le aporta. En esta charla veremos un rápido vistazo a lo qué ofrece Kubernetes, pero también lo que NO hace, así como algunos temas a los que deberías prestar atención si te planteas usarlo."
             }
         },
@@ -118,11 +123,12 @@ module.exports =
             "company": "Chief Digital Officer (CDO) @ BBDO-España",
             "image": "/speakers/beaM.png",
             "name": "Bea Martín",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/zigiella",
                 "linkedin": "https://www.linkedin.com/in/beatrizmartin/",
-                "github": "https://github.com/zigiella"
+                "github": "https://github.com/zigiella",
+                "web": "-"
             },
             "talk": {
                 "title": "Qué Metaverso ni qué Metaversa",
@@ -135,11 +141,12 @@ module.exports =
             "company": "CEO @ Quaderno",
             "image": "/speakers/carlosH.png",
             "name": "Carlos Hernández",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/",
                 "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/"
+                "github": "https://github.com/",
+                "web": "-"
             },
             "talk": {
                 "title": "TBD",
@@ -152,11 +159,12 @@ module.exports =
             "company": "",
             "image": "/speakers/teodoraB.png",
             "name": "Teodora Bozheva",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/",
                 "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/"
+                "github": "https://github.com/",
+                "web": "-"
             },
             "talk": {
                 "title": "TBD",
@@ -169,11 +177,12 @@ module.exports =
             "company": "",
             "image": "/speakers/eduF.png",
             "name": "Eduardo Ferro",
-            "bio": " ",
+            "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/",
                 "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/"
+                "github": "https://github.com/",
+                "web": "-"
             },
             "talk": {
                 "title": "TBD",
