@@ -308,24 +308,9 @@ module.exports =
                     "image": "/sponsors/plain-logo.png"
                 },
                 {
-                    "name": "Packlink Shipping",
-                    "link": "https://packlink.es",
-                    "image": "/sponsors/packlink.png"
-                },
-                {
                     "name": "Comalatech",
                     "link": "https://comalatech.com",
                     "image": "/sponsors/comalatech.png"
-                },
-                {
-                    "name": "Lookiero",
-                    "link": "https://lookiero.com",
-                    "image": "/sponsors/lookiero_tech_logo.png"
-                },
-                {
-                    "name": "Deiser",
-                    "link": "https://www.deiser.com/",
-                    "image": "/sponsors/deiser.png"
                 }
             ]
         }
