@@ -286,7 +286,7 @@ module.exports =
     ],
     "sponsor_blocks": [
         {
-            "visible": false,
+            "visible": true,
             "name": "Con la colaboración de",
             "height_em": "10",
             "sponsors": [
@@ -298,14 +298,19 @@ module.exports =
             ]
         },
         {
-            "visible": false,
+            "visible": true,
             "name": "Patrocinadores",
             "height_em": "5",
             "sponsors": [
                 {
+                    "name": "Kairós DS",
+                    "link": "https://www.kairosds.com/",
+                    "image": "/sponsors/kariosds.png"
+                },
+                {
                     "name": "Plain Concepts",
                     "link": "https://www.plainconcepts.com",
-                    "image": "/sponsors/plain-logo.png"
+                    "image": "/sponsors/plainconcepts.png"
                 },
                 {
                     "name": "Comalatech",
