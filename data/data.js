@@ -286,7 +286,7 @@ module.exports =
     ],
     "sponsor_blocks": [
         {
-            "visible": true,
+            "visible": false,
             "name": "Con la colaboración de",
             "height_em": "10",
             "sponsors": [
@@ -298,7 +298,7 @@ module.exports =
             ]
         },
         {
-            "visible": true,
+            "visible": false,
             "name": "Patrocinadores",
             "height_em": "5",
             "sponsors": [
