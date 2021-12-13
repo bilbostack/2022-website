@@ -264,14 +264,14 @@ module.exports =
     },
     "organizers": [
         {
+            "image": "/org-vicenc.jpg",
+            "name": "Vicenç García-Altés",
+            "link": "https://twitter.com/vgaltes"
+        },
+        {
             "image": "/org-ibon.jpg",
             "name": "Ibon Landa",
             "link": "https://twitter.com/ibonilm"
-        },
-        {
-            "image": "/org-fran.jpg",
-            "name": "Fran Mosteiro",
-            "link": "https://twitter.com/fran_mosteiro"
         },
         {
             "image": "/org-asier.jpg",
@@ -279,9 +279,9 @@ module.exports =
             "link": "https://twitter.com/asiermarques"
         },
         {
-            "image": "/org-vicenc.jpg",
-            "name": "Vicenç García-Altés",
-            "link": "https://twitter.com/vgaltes"
+            "image": "/org-fran.jpg",
+            "name": "Fran Mosteiro",
+            "link": "https://twitter.com/fran_mosteiro"
         }
     ],
     "sponsor_blocks": [
