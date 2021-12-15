@@ -1,16 +1,25 @@
 import React from "react"
 
-export default ({organizers}) => <>
+export default ({ organizers }) => (
+  <>
     <h3>Organizadores</h3>
     <div class="row justify-content-start">
-    {organizers.map( (organizer, index) => 
+      {organizers.map((organizer, index) => (
         <div key={index} class="col-6 col-md-3">
-            <a href={organizer.link} title={organizer.name} 
-            target="_blank" 
-            rel="noopener noreferrer">
-                <img src={organizer.image} alt={organizer.name}  class="img-thumbnail"/>
-            </a>
+          <a
+            href={organizer.link}
+            title={organizer.name}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={organizer.image}
+              alt={organizer.name}
+              class="img-thumbnail"
+            />
+          </a>
         </div>
-    )}
+      ))}
     </div>
-</>
+  </>
+)

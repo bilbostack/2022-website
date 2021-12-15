@@ -29,7 +29,7 @@ module.exports =
     },
     "speakers": [
         {
-            "visible": false,
+            "visible": true,
             "slug": "señor-lobo",
             "company": "Señor Lobo en LaVida TM",
             "image": "/speakers/señor-lobo.png",
@@ -47,7 +47,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "naiara-abaroa",
             "company": "Front-end Designer @ Wise",
             "image": "/speakers/nabaroa.png",
@@ -65,7 +65,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "pablo-garaizar",
             "company": "Lecturer @ Universidad de Deusto",
             "image": "/speakers/pabloG.png",
@@ -83,7 +83,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "cata-oyaneder",
             "company": "Software Engineer @ DAZN",
             "image": "/speakers/cataO.png",
@@ -101,7 +101,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "edu-tomas",
             "company": "Developer @ Plain Concepts",
             "image": "/speakers/eduT.png",
@@ -119,7 +119,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "bea-martin",
             "company": "Chief Digital Officer (CDO) @ BBDO-España",
             "image": "/speakers/beaM.png",
@@ -137,7 +137,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "carlos-hernandez",
             "company": "Bootstrapping @quaderno",
             "image": "/speakers/carlosH.png",
@@ -155,7 +155,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "teodora-bozheva",
             "company": "",
             "image": "/speakers/teodoraB.png",
@@ -173,7 +173,7 @@ module.exports =
             }
         },
         {
-            "visible": false,
+            "visible": true,
             "slug": "edu-ferro",
             "company": "",
             "image": "/speakers/eduF.png",

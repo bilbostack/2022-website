@@ -3,81 +3,115 @@ import Meta from "../components/meta"
 import Layout from "../components/layout"
 import Header from "../components/headerInner"
 import Footer from "../components/footer"
-import { FaArrowLeft, FaTwitter, FaLinkedin, FaGithub, FaWeebly } from 'react-icons/fa'
+import {
+  FaArrowLeft,
+  FaTwitter,
+  FaLinkedin,
+  FaGithub,
+  FaWeebly,
+} from "react-icons/fa"
 
 const SpeakerTemplate = context => {
-  const speaker = context.pageContext.speaker;
+  const speaker = context.pageContext.speaker
 
-  const configData = context.pageContext.configData;
+  const configData = context.pageContext.configData
 
   function bioWithHtml() {
-      return {__html: speaker.bio};
+    return { __html: speaker.bio }
   }
 
   function talkDescriptionWithHtml() {
-      return {__html: speaker.talk.description};
+    return { __html: speaker.talk.description }
   }
 
   return (
     <Layout>
-        <Meta title={speaker.name} 
-              og_title="Bilbostack 2022 - 29 de Enero en Bilbao"
-              og_description="Profesionales referencia del sector tecnológico vendrán a Bilbao a compartir sus conocimientos
+      <Meta
+        title={speaker.name}
+        og_title="Bilbostack 2022 - 29 de Enero en Bilbao"
+        og_description="Profesionales referencia del sector tecnológico vendrán a Bilbao a compartir sus conocimientos
               sobre las diferentes temáticas más relevantes en la actualidad."
+      />
+      <Header data={configData} />
+
+      <section>
+        <div className="container">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="/#agenda">
+                <FaArrowLeft /> volver a la agenda
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="speaker-detail">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 text-center">
+              <img
+                src={speaker.image}
+                alt={speaker.name}
+                className="img-fluid"
               />
-        <Header data={configData}/>
-
-        <section>
-            <div className="container">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/#agenda"><FaArrowLeft/> volver a la agenda</a>
-                    </li>
-                </ul>
             </div>
-        </section>
+            <div className="col-md-8">
+              <h1>{speaker.name}</h1>
+              <h5>{speaker.company}</h5>
+              <p>
+                {speaker.social.twitter ? (
+                  <a href={speaker.social.twitter}>
+                    <FaTwitter />
+                  </a>
+                ) : (
+                  ""
+                )}
+                &nbsp;
+                {speaker.social.github ? (
+                  <a href={speaker.social.github}>
+                    <FaGithub />
+                  </a>
+                ) : (
+                  ""
+                )}
+                &nbsp;
+                {speaker.social.web ? (
+                  <a href={speaker.social.web}>
+                    <FaWeebly />
+                  </a>
+                ) : (
+                  ""
+                )}
+                &nbsp;
+                {speaker.social.linkedin ? (
+                  <a href={speaker.social.linkedin}>
+                    <FaLinkedin />
+                  </a>
+                ) : (
+                  ""
+                )}
+              </p>
 
-        <section id="speaker-detail">
-
-            <div className="container">
-
-                <div className="row">
-                    <div className="col-md-4 text-center">
-                        <img src={speaker.image} alt={speaker.name} className="img-fluid"/>
-                    </div>
-                    <div className="col-md-8">
-                        <h1>{speaker.name}</h1>
-                        <h5>{speaker.company}</h5>
-                        <p>
-                            {speaker.social.twitter ? <a href={speaker.social.twitter}><FaTwitter/></a> : ""}&nbsp;
-                            {speaker.social.github ? <a href={speaker.social.github}><FaGithub/></a> : ""}&nbsp;
-                            {speaker.social.web ? <a href={speaker.social.web}><FaWeebly/></a> : ""}&nbsp;
-                            {speaker.social.linkedin ? <a href={speaker.social.linkedin}><FaLinkedin/></a> : ""}
-                        </p>
-
-                        {speaker.bio ?
-                        <div className="block">
-                            <h4>Acerca de</h4>
-                            <p dangerouslySetInnerHTML={bioWithHtml()}></p>
-                        </div> : ""}
-
-                        <div className="block">
-                            <h4>{speaker.talk.title}</h4>
-                            <p dangerouslySetInnerHTML={talkDescriptionWithHtml()}></p>
-                        </div>
-
-
-                    </div>
-
+              {speaker.bio ? (
+                <div className="block">
+                  <h4>Acerca de</h4>
+                  <p dangerouslySetInnerHTML={bioWithHtml()}></p>
                 </div>
+              ) : (
+                ""
+              )}
 
+              <div className="block">
+                <h4>{speaker.talk.title}</h4>
+                <p dangerouslySetInnerHTML={talkDescriptionWithHtml()}></p>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
-
-
-        <Footer/>
-
+      <Footer />
     </Layout>
   )
 }
