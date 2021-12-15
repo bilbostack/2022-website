@@ -34,11 +34,11 @@ export default () => (
                 sponsor_blocks{
                   visible,
                   name,
-                  height_em,
                   sponsors {
                       name,
                       link,
-                      image
+                      image,
+                      height_em
                   }
                 }
               }

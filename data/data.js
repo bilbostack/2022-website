@@ -18,7 +18,8 @@ module.exports =
     },
     "header_banner": {
         "cta_pre_text": "",
-        "cta_text": "Las entradas todavía no están a la venta",
+        "cta_visible": false,
+        "cta_text": "¡Compra tu entrada!",
         "cta_url": "https://bilbostack.com"
     },
     "home": {
@@ -288,34 +289,48 @@ module.exports =
         {
             "visible": false,
             "name": "Con la colaboración de",
-            "height_em": "10",
             "sponsors": [
                 {
                     "name": "Bilbao Ekintza",
                     "link": "https://www.bilbao.eus/BilbaoEkintza",
-                    "image": "/sponsors/bilbao.png"
+                    "image": "/sponsors/bilbao.png",
+                    "height_em": "10"
                 },
             ]
         },
         {
-            "visible": false,
+            "visible": true,
             "name": "Patrocinadores",
-            "height_em": "5",
             "sponsors": [
-                {
-                    "name": "Kairós DS",
-                    "link": "https://www.kairosds.com/",
-                    "image": "/sponsors/kariosds.png"
-                },
                 {
                     "name": "Plain Concepts",
                     "link": "https://www.plainconcepts.com",
-                    "image": "/sponsors/plainconcepts.png"
+                    "image": "/sponsors/plainconcepts.png",
+                    "height_em": "5"
                 },
                 {
                     "name": "Comalatech",
                     "link": "https://comalatech.com",
-                    "image": "/sponsors/comalatech.png"
+                    "image": "/sponsors/comalatech.png",
+                    "height_em": "5"
+                },
+                {
+                    "name": "Lifull Connect",
+                    "link": "https://www.lifullconnect.com",
+                    "image": "/sponsors/lifullconnect.png",
+                    "height_em": "3"
+                },
+                {
+                    "name": "Kairós DS",
+                    "link": "https://www.kairosds.com/",
+                    "image": "/sponsors/kariosds.png",
+                    "height_em": "5"
+                },
+                {
+                    "name": "Voxel",
+                    "link": "https://www.voxelgroup.net/index.html",
+                    "image": "/sponsors/voxel.png",
+                    "height_em": "5"
                 }
             ]
         }

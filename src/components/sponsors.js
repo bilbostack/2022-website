@@ -18,7 +18,7 @@ export default ({ sponsorBlocks }) => {
                                                                             class="item">
                                         <img src={sponsor.image} alt={sponsor.name} 
                                             style={{
-                                                height: block.height_em + 'em',
+                                                height: sponsor.height_em + 'em',
                                                 width: 'auto'
                                                 }}/>
                                 </a> )}
