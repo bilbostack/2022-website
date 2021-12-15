@@ -61,7 +61,7 @@ const SpeakerTemplate = context => {
               <h5>{speaker.company}</h5>
               <p>
                 {speaker.social.twitter ? (
-                  <a href={speaker.social.twitter}>
+                  <a href={speaker.social.twitter} target="_blank" rel="noopener noreferrer">
                     <FaTwitter />
                   </a>
                 ) : (
@@ -69,7 +69,7 @@ const SpeakerTemplate = context => {
                 )}
                 &nbsp;
                 {speaker.social.github ? (
-                  <a href={speaker.social.github}>
+                  <a href={speaker.social.github} target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                   </a>
                 ) : (
@@ -77,7 +77,7 @@ const SpeakerTemplate = context => {
                 )}
                 &nbsp;
                 {speaker.social.web ? (
-                  <a href={speaker.social.web}>
+                  <a href={speaker.social.web} target="_blank" rel="noopener noreferrer">
                     <FaWeebly />
                   </a>
                 ) : (
@@ -85,7 +85,7 @@ const SpeakerTemplate = context => {
                 )}
                 &nbsp;
                 {speaker.social.linkedin ? (
-                  <a href={speaker.social.linkedin}>
+                  <a href={speaker.social.linkedin} target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                   </a>
                 ) : (

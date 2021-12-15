@@ -9,6 +9,7 @@ export default ({ items }) => (
           className="nav-link"
           title={item.title}
           target={item.external ? "_blank" : "_self"}
+          rel={item.external ? "noopener noreferrer" : "_self"}
         >
           {item.title}
         </a>

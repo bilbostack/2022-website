@@ -42,7 +42,11 @@ export default ({ data }) => {
       <div id="content" class="container">
         <section id="presentation" class="text-center">
           <h2>
-            {configData.home.title} <span>{configData.conference_hashtag}</span>
+            {configData.home.title} <a 
+              href="https://twitter.com/hashtag/bilbostack22" 
+              target="_blank" 
+              rel="noopener noreferrer"><span>{configData.conference_hashtag}</span>
+            </a>
           </h2>
           <p>{configData.home.description}</p>
           <p>
@@ -56,7 +60,7 @@ export default ({ data }) => {
 
         <section id="speakers" class="row">
           {configData.speakers.map((speaker, i) => {
-            if (speaker.visible === "true")
+            if (speaker.visible === true)
               return (
                 <div class="col-lg-4 col-sm-6 col-xs-12">
                   <SpeakerCard speaker={speaker} />
