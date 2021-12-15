@@ -102,7 +102,7 @@ export default function PageTemplate({ data }) {
 
         <meta
           property="og:image"
-          content="http://bilbostack.com/bilbostack-share.png"
+          content="http://bilbostack.com/bilbostack-share.jpg"
         />
         <meta property="og:image:width" content="982" />
         <meta property="og:image:height" content="517" />
