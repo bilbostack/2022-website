@@ -287,7 +287,7 @@ module.exports =
     ],
     "sponsor_blocks": [
         {
-            "visible": false,
+            "visible": true,
             "name": "Con la colaboración de",
             "sponsors": [
                 {
@@ -339,32 +339,32 @@ module.exports =
         {
             "link": "/#agenda",
             "title": "Agenda",
-            "external": 'false'
+            "external": false
         },
         {
             "link": "/indications",
             "title": "Cómo llegar",
-            "external": 'false'
+            "external": false
         },
         {
             "link": "/code-of-conduct",
             "title": "Código de conducta",
-            "external": 'false'
+            "external": false
         },
         {
             "link": "/covid-prevention",
             "title": "Protocolo prevención COVID-19",
-            "external": 'false'
+            "external": false
         },
         {
             "link": "mailto:info@bilbostack.com",
             "title": "Contacto",
-            "external": 'true'
+            "external": true
         },
         {
             "link": "https://2020.bilbostack.com",
             "title": "Edición del 2020",
-            "external": "true"
+            "external": true
         }
 
     ]
