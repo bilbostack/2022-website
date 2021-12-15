@@ -30,34 +30,16 @@ module.exports =
     "speakers": [
         {
             "visible": true,
-            "slug": "señor-lobo",
-            "company": "Señor Lobo en LaVida TM",
-            "image": "/speakers/señor-lobo.png",
-            "name": "Señor Lobo",
-            "bio": "TBD",
-            "social": {
-                "twitter": "https://twitter.com/",
-                "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/",
-                "web": "-"
-            },
-            "talk": {
-                "title": "Cómo Señor Lobear bien fuerte",
-                "description": "Hablará de cosas de Señor Lobo, ¡jopetas!"
-            }
-        },
-        {
-            "visible": true,
             "slug": "naiara-abaroa",
             "company": "Front-end Designer @ Wise",
-            "image": "/speakers/nabaroa.png",
+            "image": "/speakers/nabaroa.jpg",
             "name": "Naiara Abaroa",
             "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/nabaroa",
                 "linkedin": "https://www.linkedin.com/in/naiaraabaroa/",
                 "github": "https://github.com/nabaroa",
-                "web": "-"
+                "web": ""
             },
             "talk": {
                 "title": "10 años de CSS en un pomodoro",
@@ -68,14 +50,14 @@ module.exports =
             "visible": true,
             "slug": "pablo-garaizar",
             "company": "Lecturer @ Universidad de Deusto",
-            "image": "/speakers/pabloG.png",
+            "image": "/speakers/pabloG.jpg",
             "name": "Pablo Garaizar",
             "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/PGaraizar",
                 "linkedin": "https://www.linkedin.com/in/pablogaraizar/",
                 "github": "https://github.com/txipi",
-                "web": "-"
+                "web": ""
             },
             "talk": {
                 "title": "¿Cómo se diseña una experiencia lúdica?",
@@ -86,14 +68,14 @@ module.exports =
             "visible": true,
             "slug": "cata-oyaneder",
             "company": "Software Engineer @ DAZN",
-            "image": "/speakers/cataO.png",
+            "image": "/speakers/cataO.jpg",
             "name": "Cata Oyaneder",
             "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/cataflu",
                 "linkedin": "https://www.linkedin.com/in/cataflu/",
                 "github": "https://github.com/cat2608",
-                "web": "-"
+                "web": ""
             },
             "talk": {
                 "title": "Seeking to the Action",
@@ -104,14 +86,14 @@ module.exports =
             "visible": true,
             "slug": "edu-tomas",
             "company": "Developer @ Plain Concepts",
-            "image": "/speakers/eduT.png",
+            "image": "/speakers/eduT.jpg",
             "name": "Edu Tomás",
             "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/eiximenis",
                 "linkedin": "https://www.linkedin.com/in/etomas/",
                 "github": "https://github.com/eiximenis",
-                "web": "-"
+                "web": ""
             },
             "talk": {
                 "title": "Kubernetes Do's, don'ts and why's",
@@ -122,14 +104,14 @@ module.exports =
             "visible": true,
             "slug": "bea-martin",
             "company": "Chief Digital Officer (CDO) @ BBDO-España",
-            "image": "/speakers/beaM.png",
+            "image": "/speakers/beaM.jpg",
             "name": "Bea Martín",
             "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/zigiella",
                 "linkedin": "https://www.linkedin.com/in/beatrizmartin/",
                 "github": "https://github.com/zigiella",
-                "web": "-"
+                "web": ""
             },
             "talk": {
                 "title": "Qué Metaverso ni qué Metaversa",
@@ -140,7 +122,7 @@ module.exports =
             "visible": true,
             "slug": "carlos-hernandez",
             "company": "Bootstrapping @quaderno",
-            "image": "/speakers/carlosH.png",
+            "image": "/speakers/carlosH.jpg",
             "name": "Carlos Hernández",
             "bio": "TBD",
             "social": {
@@ -157,15 +139,15 @@ module.exports =
         {
             "visible": true,
             "slug": "teodora-bozheva",
-            "company": "",
-            "image": "/speakers/teodoraB.png",
+            "company": "CEO @ Berriprocess Agility | Kanban Trainer and Consultant ",
+            "image": "/speakers/teodoraB.jpg",
             "name": "Teodora Bozheva",
             "bio": "TBD",
             "social": {
-                "twitter": "https://twitter.com/",
-                "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/",
-                "web": "-"
+                "twitter": "https://twitter.com/tbozheva",
+                "linkedin": "https://www.linkedin.com/in/teodorabozheva",
+                "github": "",
+                "web": ""
             },
             "talk": {
                 "title": "TBD",
@@ -175,19 +157,37 @@ module.exports =
         {
             "visible": true,
             "slug": "edu-ferro",
-            "company": "",
-            "image": "/speakers/eduF.png",
+            "company": "Platform Engineering Manager @ Clarity.ai",
+            "image": "/speakers/eduF.jpg",
             "name": "Eduardo Ferro",
+            "bio": "TBD",
+            "social": {
+                "twitter": "https://twitter.com/eferro",
+                "linkedin": "https://www.linkedin.com/in/eferro",
+                "github": "https://github.com/eferro",
+                "web": "http://eferro.net"
+            },
+            "talk": {
+                "title": "TBD",
+                "description": "TBD"
+            }
+        },
+        {
+            "visible": false,
+            "slug": "señor-lobo",
+            "company": "Señor Lobo en LaVida TM",
+            "image": "/speakers/señor-lobo.png",
+            "name": "Señor Lobo",
             "bio": "TBD",
             "social": {
                 "twitter": "https://twitter.com/",
                 "linkedin": "https://www.linkedin.com/",
                 "github": "https://github.com/",
-                "web": "-"
+                "web": ""
             },
             "talk": {
-                "title": "TBD",
-                "description": "TBD"
+                "title": "Cómo Señor Lobear bien fuerte",
+                "description": "Hablará de cosas de Señor Lobo, ¡jopetas!"
             }
         }
     ],
