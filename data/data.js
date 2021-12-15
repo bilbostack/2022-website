@@ -139,19 +139,19 @@ module.exports =
         {
             "visible": false,
             "slug": "carlos-hernandez",
-            "company": "CEO @ Quaderno",
+            "company": "Bootstrapping @quaderno",
             "image": "/speakers/carlosH.png",
             "name": "Carlos Hernández",
             "bio": "TBD",
             "social": {
-                "twitter": "https://twitter.com/",
-                "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/",
-                "web": "-"
+                "twitter": "https://twitter.com/polimorfico",
+                "linkedin": "https://www.linkedin.com/in/carloshernandezmedina",
+                "github": "https://github.com/polimorfico",
+                "web": "https://carlos.digital"
             },
             "talk": {
-                "title": "TBD",
-                "description": "TBD"
+                "title": "El futuro del trabajo",
+                "description": "La pandemia aceleró la implantación del trabajo remoto en muchas empresas, con sus pros y contra. A muchos se les acabaron las excusas para impedir trabajar fuera de la oficina y la llegada de potentes empresas extranjeras que no dudan en trabajar en remoto les está dando una bofetada de realidad. Cada vez seremos más los que trabajemos fuera de la oficina. Pero esto es solo el principio. Llegarán transformaciones más profundas que cambiarán nuestra concepción del trabajo, tal y como lo conocemos hoy."
             }
         },
         {
