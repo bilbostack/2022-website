@@ -331,6 +331,12 @@ module.exports =
                     "link": "https://www.voxelgroup.net/index.html",
                     "image": "/sponsors/voxel.png",
                     "height_em": "5"
+                },
+                {
+                    "name": "HolaLuz",
+                    "link": "https://www.holaluz.com",
+                    "image": "/sponsors/holaluz.png",
+                    "height_em": "3"
                 }
             ]
         }
