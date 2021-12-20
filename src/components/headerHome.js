@@ -14,12 +14,14 @@ export default ({ data }) => {
           <h1 class="display-4" dangerouslySetInnerHTML={claimWithHtml()}></h1>
           <p class="lead">{data.conference_date}</p>
 
-          <p>{data.header_banner.cta_pre_text}</p>
+          <p>{data.header_banner.cta_pre_text}{data.header_banner.cta_visible}</p>
           <div class={data.header_banner.cta_visible === true ? "" : "hidden"}>
             <a
               class="btn btn-primary btn-lg"
               href={data.header_banner.cta_url}
               role="button"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {data.header_banner.cta_text}
             </a>

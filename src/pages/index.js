@@ -99,6 +99,7 @@ export const query = graphql`
         }
         header_banner {
           cta_pre_text
+          cta_visible
           cta_text
           cta_url
         }

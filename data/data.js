@@ -43,7 +43,7 @@ module.exports =
             },
             "talk": {
                 "title": "10 años de CSS en un pomodoro",
-                "description": "Bilbostack celebra 10 entregas y este es el mejor momento para hacer retrospectiva y ver qué nos ha deparado el CSS sobre todo en esta última década. \nHa sido un camino precioso, bullicioso, si lo comparamos con el páramo desértico que fueron los primeros 15 años. \nDaremos un paseo integral, nos daremos cuenta de cuánto hemos aprendido y veremos las últimas novedades que el estándar nos tiene preparadas. \nEsto no ha hecho más que empezar."
+                "description": "Bilbostack celebra 10 entregas y este es el mejor momento para hacer retrospectiva y ver qué nos ha deparado el CSS sobre todo en esta última década. <br /><br />Ha sido un camino precioso, bullicioso, si lo comparamos con el páramo desértico que fueron los primeros 15 años. <br /><br />Daremos un paseo integral, nos daremos cuenta de cuánto hemos aprendido y veremos las últimas novedades que el estándar nos tiene preparadas. <br /><br />Esto no ha hecho más que empezar."
             }
         },
         {
@@ -61,7 +61,7 @@ module.exports =
             },
             "talk": {
                 "title": "¿Cómo se diseña una experiencia lúdica?",
-                "description": "Diseñar juegos (de mesa, de rol, videojuegos, etc.) u otras experiencias lúdicas como escape rooms o similares está todavía a medio camino entre un arte y una ciencia. \nEn esta charla repasaremos los fundamentos básicos del diseño de juegos (mecánicas, historias, tecnologías y experiencias) y los diferentes tipos de diversión que puede buscar quien juegue a nuestros juegos (difícil, fácil, relacional y con propósito). \nAdemás, veremos cómo empezar el diseño de un juego de mesa y qué fases deberemos llevar a cabo para terminarlo, desde el prototipado, testeo, edición, (micromecenazgo), producción y distribución."
+                "description": "Diseñar juegos (de mesa, de rol, videojuegos, etc.) u otras experiencias lúdicas como escape rooms o similares está todavía a medio camino entre un arte y una ciencia. <br /><br />En esta charla repasaremos los fundamentos básicos del diseño de juegos (mecánicas, historias, tecnologías y experiencias) y los diferentes tipos de diversión que puede buscar quien juegue a nuestros juegos (difícil, fácil, relacional y con propósito). <br /><br />Además, veremos cómo empezar el diseño de un juego de mesa y qué fases deberemos llevar a cabo para terminarlo, desde el prototipado, testeo, edición, (micromecenazgo), producción y distribución."
             }
         },
         {
@@ -79,7 +79,7 @@ module.exports =
             },
             "talk": {
                 "title": "Seeking to the Action",
-                "description": "Nuestro equipo se encarga de crear funcionalidades que enriquecen la experiencia del usuario como por ejemplo Watch Party con la que puedes crear una sala virtual y asistir un partido en directo con amigos. También nos encargamos de mostrar en tiempo real las estadísticas de un partido de fútbol o de notificar al usuario cuando un partido está a punto de empezar. Pero todo esto empezó con la idea de marcar en la barra de tiempo los puntos claves de un partido de fútbol. \nEn esta charla quiero compartir como hemos automatizado este proceso usando una serie de recursos de AWS como Step Functions, Lambdas, ECS, Rekognition y provisionando con Terraform."
+                "description": "Nuestro equipo se encarga de crear funcionalidades que enriquecen la experiencia del usuario como por ejemplo Watch Party con la que puedes crear una sala virtual y asistir un partido en directo con amigos. También nos encargamos de mostrar en tiempo real las estadísticas de un partido de fútbol o de notificar al usuario cuando un partido está a punto de empezar. Pero todo esto empezó con la idea de marcar en la barra de tiempo los puntos claves de un partido de fútbol. <br /><br />En esta charla quiero compartir como hemos automatizado este proceso usando una serie de recursos de AWS como Step Functions, Lambdas, ECS, Rekognition y provisionando con Terraform."
             }
         },
         {
@@ -97,7 +97,7 @@ module.exports =
             },
             "talk": {
                 "title": "Kubernetes Do's, don'ts and why's",
-                "description": "Kubernetes está de moda, sin duda alguna. \nCasi todo el mundo se plantea si debería usarlo o no y qué ventajas o inconvenientes le aporta. \nEn esta charla veremos un rápido vistazo a lo qué ofrece Kubernetes, pero también lo que NO hace, así como algunos temas a los que deberías prestar atención si te planteas usarlo."
+                "description": "Kubernetes está de moda, sin duda alguna. <br /><br />Casi todo el mundo se plantea si debería usarlo o no y qué ventajas o inconvenientes le aporta. <br /><br />En esta charla veremos un rápido vistazo a lo qué ofrece Kubernetes, pero también lo que NO hace, así como algunos temas a los que deberías prestar atención si te planteas usarlo."
             }
         },
         {
@@ -115,7 +115,7 @@ module.exports =
             },
             "talk": {
                 "title": "Qué Metaverso ni qué Metaversa",
-                "description": "¿Qué será el Metaverso? ¿Por qué será importante? ¿Por qué es importante ahora? \nEsta charla va de hacer una reflexión escepticoptimista sobre lo viejo y lo nuevo del concepto, lo que es y lo que no es. De analizar si la nueva era de Internet será entrar y vivir en él. De estimar cuándo va a suceder este cambio. Y cómo este cambio va a afectar a nuestros comportamientos de ocio, sociales, laborales y de consumo. Descomponer la convergencia tecnológica que lo hará posible, y la especial integración de los NFTs y las criptomonedas en esta evolución. No solo para saber observar la carrera que las Big Tech están emprendiendo ahora, sino para entender las oportunidades que existen para que nosotros seamos parte de este progreso."
+                "description": "¿Qué será el Metaverso? ¿Por qué será importante? ¿Por qué es importante ahora? <br /><br />Esta charla va de hacer una reflexión escepticoptimista sobre lo viejo y lo nuevo del concepto, lo que es y lo que no es. De analizar si la nueva era de Internet será entrar y vivir en él. De estimar cuándo va a suceder este cambio. Y cómo este cambio va a afectar a nuestros comportamientos de ocio, sociales, laborales y de consumo. Descomponer la convergencia tecnológica que lo hará posible, y la especial integración de los NFTs y las criptomonedas en esta evolución. No solo para saber observar la carrera que las Big Tech están emprendiendo ahora, sino para entender las oportunidades que existen para que nosotros seamos parte de este progreso."
             }
         },
         {
@@ -133,7 +133,7 @@ module.exports =
             },
             "talk": {
                 "title": "El futuro del trabajo",
-                "description": "La pandemia aceleró la implantación del trabajo remoto en muchas empresas, con sus pros y contra. A muchos se les acabaron las excusas para impedir trabajar fuera de la oficina y la llegada de potentes empresas extranjeras que no dudan en trabajar en remoto les está dando una bofetada de realidad. Cada vez seremos más los que trabajemos fuera de la oficina. \nPero esto es solo el principio. \nLlegarán transformaciones más profundas que cambiarán nuestra concepción del trabajo, tal y como lo conocemos hoy."
+                "description": "La pandemia aceleró la implantación del trabajo remoto en muchas empresas, con sus pros y contra. A muchos se les acabaron las excusas para impedir trabajar fuera de la oficina y la llegada de potentes empresas extranjeras que no dudan en trabajar en remoto les está dando una bofetada de realidad. Cada vez seremos más los que trabajemos fuera de la oficina. <br /><br />Pero esto es solo el principio. <br /><br />Llegarán transformaciones más profundas que cambiarán nuestra concepción del trabajo, tal y como lo conocemos hoy."
             }
         },
         {
@@ -169,7 +169,7 @@ module.exports =
             },
             "talk": {
                 "title": "Experiencia de Desarrollo y equipos de Plataforma modernos",
-                "description": "Quizás hayas escuchado el termino Developer Experience y lo importante que es para que los equipos sean efectivos. O hayas oido hablar de equipos de Plataforma pero te surgen dudas sobre cómo trabajan. \nEn esta charla veremos en que consiste la experiencia de desarrollo (Developer Experience) y como un equipo de plataforma pueden mejorarla sustancialmente. Veremos cómo nos aproximamos al problema, decidimos qué implementar y el impacto conseguido. Hablaremos de optimización del proceso de onboarding, eliminación de fricción en el proceso de despliegue, instrumentación de pipelines de CI, mejoras en la autonomia de los equipos. \nY todo esto desde el punto de vista de un equipo de desarrollo de producto que usa  programación extrema (releases pequeñas y continuas, TDD, mobprogramming, propiedad collectiva del código, Trunk base development, etc)."
+                "description": "Quizás hayas escuchado el termino Developer Experience y lo importante que es para que los equipos sean efectivos. O hayas oido hablar de equipos de Plataforma pero te surgen dudas sobre cómo trabajan. <br /><br />En esta charla veremos en que consiste la experiencia de desarrollo (Developer Experience) y como un equipo de plataforma pueden mejorarla sustancialmente. Veremos cómo nos aproximamos al problema, decidimos qué implementar y el impacto conseguido. Hablaremos de optimización del proceso de onboarding, eliminación de fricción en el proceso de despliegue, instrumentación de pipelines de CI, mejoras en la autonomia de los equipos. <br /><br />Y todo esto desde el punto de vista de un equipo de desarrollo de producto que usa  programación extrema (releases pequeñas y continuas, TDD, mobprogramming, propiedad collectiva del código, Trunk base development, etc)."
             }
         }
     ],
