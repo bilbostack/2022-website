@@ -319,6 +319,12 @@ module.exports =
                     "link": "https://www.holaluz.com",
                     "image": "/sponsors/holaluz.png",
                     "height_em": "3"
+                },
+                {
+                    "name": "Lookiero",
+                    "link": "https://lookiero.com/",
+                    "image": "/sponsors/lookiero.png",
+                    "height_em": "5"
                 }
             ]
         }
