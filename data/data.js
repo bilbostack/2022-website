@@ -18,9 +18,9 @@ module.exports =
     },
     "header_banner": {
         "cta_pre_text": "",
-        "cta_visible": false,
+        "cta_visible": true,
         "cta_text": "¡Compra tu entrada!",
-        "cta_url": "https://bilbostack.com"
+        "cta_url": "https://entradas-bilbostack-2022.eventbrite.es"
     },
     "home": {
         "title": "El programa de",
@@ -34,7 +34,7 @@ module.exports =
             "company": "Front-end Designer @ Wise",
             "image": "/speakers/nabaroa.jpg",
             "name": "Naiara Abaroa",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/nabaroa",
                 "linkedin": "https://www.linkedin.com/in/naiaraabaroa/",
@@ -43,7 +43,7 @@ module.exports =
             },
             "talk": {
                 "title": "10 años de CSS en un pomodoro",
-                "description": "Bilbostack celebra 10 entregas y este es el mejor momento para hacer retrospectiva y ver qué nos ha deparado el CSS sobre todo en esta última década. Ha sido un camino precioso, bullicioso, si lo comparamos con el páramo desértico que fueron los primeros 15 años. Daremos un paseo integral, nos daremos cuenta de cuánto hemos aprendido y veremos las últimas novedades que el estándar nos tiene preparadas. Esto no ha hecho más que empezar."
+                "description": "Bilbostack celebra 10 entregas y este es el mejor momento para hacer retrospectiva y ver qué nos ha deparado el CSS sobre todo en esta última década. \nHa sido un camino precioso, bullicioso, si lo comparamos con el páramo desértico que fueron los primeros 15 años. \nDaremos un paseo integral, nos daremos cuenta de cuánto hemos aprendido y veremos las últimas novedades que el estándar nos tiene preparadas. \nEsto no ha hecho más que empezar."
             }
         },
         {
@@ -52,7 +52,7 @@ module.exports =
             "company": "Lecturer @ Universidad de Deusto",
             "image": "/speakers/pabloG.jpg",
             "name": "Pablo Garaizar",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/PGaraizar",
                 "linkedin": "https://www.linkedin.com/in/pablogaraizar/",
@@ -61,7 +61,7 @@ module.exports =
             },
             "talk": {
                 "title": "¿Cómo se diseña una experiencia lúdica?",
-                "description": "Diseñar juegos (de mesa, de rol, videojuegos, etc.) u otras experiencias lúdicas como escape rooms o similares está todavía a medio camino entre un arte y una ciencia. En esta charla repasaremos los fundamentos básicos del diseño de juegos (mecánicas, historias, tecnologías y experiencias) y los diferentes tipos de diversión que puede buscar quien juegue a nuestros juegos (difícil, fácil, relacional y con propósito). Además, veremos cómo empezar el diseño de un juego de mesa y qué fases deberemos llevar a cabo para terminarlo, desde el prototipado, testeo, edición, (micromecenazgo), producción y distribución."
+                "description": "Diseñar juegos (de mesa, de rol, videojuegos, etc.) u otras experiencias lúdicas como escape rooms o similares está todavía a medio camino entre un arte y una ciencia. \nEn esta charla repasaremos los fundamentos básicos del diseño de juegos (mecánicas, historias, tecnologías y experiencias) y los diferentes tipos de diversión que puede buscar quien juegue a nuestros juegos (difícil, fácil, relacional y con propósito). \nAdemás, veremos cómo empezar el diseño de un juego de mesa y qué fases deberemos llevar a cabo para terminarlo, desde el prototipado, testeo, edición, (micromecenazgo), producción y distribución."
             }
         },
         {
@@ -70,7 +70,7 @@ module.exports =
             "company": "Software Engineer @ DAZN",
             "image": "/speakers/cataO.jpg",
             "name": "Cata Oyaneder",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/cataflu",
                 "linkedin": "https://www.linkedin.com/in/cataflu/",
@@ -79,7 +79,7 @@ module.exports =
             },
             "talk": {
                 "title": "Seeking to the Action",
-                "description": "Nuestro equipo se encarga de crear funcionalidades que enriquecen la experiencia del usuario como por ejemplo Watch Party con la que puedes crear una sala virtual y asistir un partido en directo con amigos. También nos encargamos de mostrar en tiempo real las estadísticas de un partido de fútbol o de notificar al usuario cuando un partido está a punto de empezar. Pero todo esto empezó con la idea de marcar en la barra de tiempo los puntos claves de un partido de fútbol. En esta charla quiero compartir como hemos automatizado este proceso usando una serie de recursos de AWS como Step Functions, Lambdas, ECS, Rekognition y provisionando con Terraform."
+                "description": "Nuestro equipo se encarga de crear funcionalidades que enriquecen la experiencia del usuario como por ejemplo Watch Party con la que puedes crear una sala virtual y asistir un partido en directo con amigos. También nos encargamos de mostrar en tiempo real las estadísticas de un partido de fútbol o de notificar al usuario cuando un partido está a punto de empezar. Pero todo esto empezó con la idea de marcar en la barra de tiempo los puntos claves de un partido de fútbol. \nEn esta charla quiero compartir como hemos automatizado este proceso usando una serie de recursos de AWS como Step Functions, Lambdas, ECS, Rekognition y provisionando con Terraform."
             }
         },
         {
@@ -88,7 +88,7 @@ module.exports =
             "company": "Developer @ Plain Concepts",
             "image": "/speakers/eduT.jpg",
             "name": "Edu Tomás",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/eiximenis",
                 "linkedin": "https://www.linkedin.com/in/etomas/",
@@ -97,7 +97,7 @@ module.exports =
             },
             "talk": {
                 "title": "Kubernetes Do's, don'ts and why's",
-                "description": "Kubernetes está de moda, sin duda alguna. Casi todo el mundo se plantea si debería usarlo o no y qué ventajas o inconvenientes le aporta. En esta charla veremos un rápido vistazo a lo qué ofrece Kubernetes, pero también lo que NO hace, así como algunos temas a los que deberías prestar atención si te planteas usarlo."
+                "description": "Kubernetes está de moda, sin duda alguna. \nCasi todo el mundo se plantea si debería usarlo o no y qué ventajas o inconvenientes le aporta. \nEn esta charla veremos un rápido vistazo a lo qué ofrece Kubernetes, pero también lo que NO hace, así como algunos temas a los que deberías prestar atención si te planteas usarlo."
             }
         },
         {
@@ -106,7 +106,7 @@ module.exports =
             "company": "Chief Digital Officer (CDO) @ BBDO-España",
             "image": "/speakers/beaM.jpg",
             "name": "Bea Martín",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/zigiella",
                 "linkedin": "https://www.linkedin.com/in/beatrizmartin/",
@@ -115,7 +115,7 @@ module.exports =
             },
             "talk": {
                 "title": "Qué Metaverso ni qué Metaversa",
-                "description": "¿Qué será el Metaverso? ¿Por qué será importante? ¿Por qué es importante ahora? Esta charla va de hacer una reflexión escepticoptimista sobre lo viejo y lo nuevo del concepto, lo que es y lo que no es. De analizar si la nueva era de Internet será entrar y vivir en él. De estimar cuándo va a suceder este cambio. Y cómo este cambio va a afectar a nuestros comportamientos de ocio, sociales, laborales y de consumo. Descomponer la convergencia tecnológica que lo hará posible, y la especial integración de los NFTs y las criptomonedas en esta evolución. No solo para saber observar la carrera que las Big Tech están emprendiendo ahora, sino para entender las oportunidades que existen para que nosotros seamos parte de este progreso."
+                "description": "¿Qué será el Metaverso? ¿Por qué será importante? ¿Por qué es importante ahora? \nEsta charla va de hacer una reflexión escepticoptimista sobre lo viejo y lo nuevo del concepto, lo que es y lo que no es. De analizar si la nueva era de Internet será entrar y vivir en él. De estimar cuándo va a suceder este cambio. Y cómo este cambio va a afectar a nuestros comportamientos de ocio, sociales, laborales y de consumo. Descomponer la convergencia tecnológica que lo hará posible, y la especial integración de los NFTs y las criptomonedas en esta evolución. No solo para saber observar la carrera que las Big Tech están emprendiendo ahora, sino para entender las oportunidades que existen para que nosotros seamos parte de este progreso."
             }
         },
         {
@@ -124,7 +124,7 @@ module.exports =
             "company": "Bootstrapping @quaderno",
             "image": "/speakers/carlosH.jpg",
             "name": "Carlos Hernández",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/polimorfico",
                 "linkedin": "https://www.linkedin.com/in/carloshernandezmedina",
@@ -133,7 +133,7 @@ module.exports =
             },
             "talk": {
                 "title": "El futuro del trabajo",
-                "description": "La pandemia aceleró la implantación del trabajo remoto en muchas empresas, con sus pros y contra. A muchos se les acabaron las excusas para impedir trabajar fuera de la oficina y la llegada de potentes empresas extranjeras que no dudan en trabajar en remoto les está dando una bofetada de realidad. Cada vez seremos más los que trabajemos fuera de la oficina. Pero esto es solo el principio. Llegarán transformaciones más profundas que cambiarán nuestra concepción del trabajo, tal y como lo conocemos hoy."
+                "description": "La pandemia aceleró la implantación del trabajo remoto en muchas empresas, con sus pros y contra. A muchos se les acabaron las excusas para impedir trabajar fuera de la oficina y la llegada de potentes empresas extranjeras que no dudan en trabajar en remoto les está dando una bofetada de realidad. Cada vez seremos más los que trabajemos fuera de la oficina. \nPero esto es solo el principio. \nLlegarán transformaciones más profundas que cambiarán nuestra concepción del trabajo, tal y como lo conocemos hoy."
             }
         },
         {
@@ -142,7 +142,7 @@ module.exports =
             "company": "CEO @ Berriprocess Agility | Kanban Trainer and Consultant ",
             "image": "/speakers/teodoraB.jpg",
             "name": "Teodora Bozheva",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/tbozheva",
                 "linkedin": "https://www.linkedin.com/in/teodorabozheva",
@@ -160,7 +160,7 @@ module.exports =
             "company": "Platform Engineering Manager @ Clarity.ai",
             "image": "/speakers/eduF.jpg",
             "name": "Eduardo Ferro",
-            "bio": "TBD",
+            "bio": ".",
             "social": {
                 "twitter": "https://twitter.com/eferro",
                 "linkedin": "https://www.linkedin.com/in/eferro",
@@ -168,26 +168,8 @@ module.exports =
                 "web": "http://eferro.net"
             },
             "talk": {
-                "title": "TBD",
-                "description": "TBD"
-            }
-        },
-        {
-            "visible": false,
-            "slug": "señor-lobo",
-            "company": "Señor Lobo en LaVida TM",
-            "image": "/speakers/señor-lobo.png",
-            "name": "Señor Lobo",
-            "bio": "TBD",
-            "social": {
-                "twitter": "https://twitter.com/",
-                "linkedin": "https://www.linkedin.com/",
-                "github": "https://github.com/",
-                "web": ""
-            },
-            "talk": {
-                "title": "Cómo Señor Lobear bien fuerte",
-                "description": "Hablará de cosas de Señor Lobo, ¡jopetas!"
+                "title": "Experiencia de Desarrollo y equipos de Plataforma modernos",
+                "description": "Quizás hayas escuchado el termino Developer Experience y lo importante que es para que los equipos sean efectivos. O hayas oido hablar de equipos de Plataforma pero te surgen dudas sobre cómo trabajan. \nEn esta charla veremos en que consiste la experiencia de desarrollo (Developer Experience) y como un equipo de plataforma pueden mejorarla sustancialmente. Veremos cómo nos aproximamos al problema, decidimos qué implementar y el impacto conseguido. Hablaremos de optimización del proceso de onboarding, eliminación de fricción en el proceso de despliegue, instrumentación de pipelines de CI, mejoras en la autonomia de los equipos. \nY todo esto desde el punto de vista de un equipo de desarrollo de producto que usa  programación extrema (releases pequeñas y continuas, TDD, mobprogramming, propiedad collectiva del código, Trunk base development, etc)."
             }
         }
     ],
@@ -204,11 +186,11 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "text",
@@ -216,11 +198,11 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "text",
@@ -237,11 +219,11 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "text",
@@ -249,11 +231,11 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "speaker",
-                        "content": "señor-lobo"
+                        "content": "edu-ferro"
                     },
                     {
                         "type": "text",
