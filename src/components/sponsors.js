@@ -21,6 +21,8 @@ export default ({ sponsorBlocks }) => {
                         href={sponsor.link}
                         title={sponsor.name}
                         class="item"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         <img
                           src={sponsor.image}

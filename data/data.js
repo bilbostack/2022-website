@@ -325,6 +325,12 @@ module.exports =
                     "link": "https://lookiero.com/",
                     "image": "/sponsors/lookiero.png",
                     "height_em": "5"
+                },
+                {
+                    "name": "NTT Data",
+                    "link": "https://www.nttdata.com/global/en/",
+                    "image": "/sponsors/nttdata.png",
+                    "height_em": "2"
                 }
             ]
         }
