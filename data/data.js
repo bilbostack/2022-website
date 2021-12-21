@@ -150,8 +150,8 @@ module.exports =
                 "web": ""
             },
             "talk": {
-                "title": "TBD",
-                "description": "TBD"
+                "title": "¿Por qué todas las empresas necesitan tener una mesa de tenis?",
+                "description": "Desarrollar la capacidad de las organizaciones de adaptarse y ser exitosas en el contexto de negocio actual es uno de los propósitos de muchas empresas. Todas quieren ver los efectos positivos cuanto antes, pero, esta transición requiere su tiempo. <br /><br />Esta charla es sobre un atajo poco conocido que puede hacer vuestra experiencia más agradable y fructífera."
             }
         },
         {
@@ -285,15 +285,15 @@ module.exports =
             "name": "Patrocinadores",
             "sponsors": [
                 {
-                    "name": "Plain Concepts",
-                    "link": "https://www.plainconcepts.com",
-                    "image": "/sponsors/plainconcepts.png",
-                    "height_em": "5"
-                },
-                {
                     "name": "Comalatech",
                     "link": "https://comalatech.com",
                     "image": "/sponsors/comalatech.png",
+                    "height_em": "5"
+                },
+                {
+                    "name": "Plain Concepts",
+                    "link": "https://www.plainconcepts.com",
+                    "image": "/sponsors/plainconcepts.png",
                     "height_em": "5"
                 },
                 {
