@@ -1,7 +1,5 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
-import LocationMap from "./locationMap"
-import Sponsors from "./sponsors"
 import Organizers from "./organizers"
 import Nav from "./nav"
 
@@ -22,24 +20,6 @@ export default () => (
               title
               external
             }
-            location {
-              gmaps_iframe_url
-              addresses {
-                name
-                line
-                map_link
-              }
-            }
-            sponsor_blocks {
-              visible
-              name
-              sponsors {
-                name
-                link
-                image
-                height_em
-              }
-            }
           }
         }
       }
@@ -49,8 +29,6 @@ export default () => (
 
       return (
         <footer>
-          <LocationMap location={configData.location} />
-
           <section id="about">
             <div class="container">
               <div class="row">
@@ -66,16 +44,14 @@ export default () => (
             </div>
           </section>
 
-          <Sponsors sponsorBlocks={configData.sponsor_blocks} />
-
-          <div id="credit">
+          <section id="credit">
             <div className="container">
               Bilbostack 2022 | Website created with the{" "}
               <a href="https://github.com/asiermarques/gatsby-starter-conferencer">
                 Gatsby Conferencer starter
               </a>
             </div>
-          </div>
+          </section>
         </footer>
       )
     }}

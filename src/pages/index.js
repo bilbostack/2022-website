@@ -4,6 +4,8 @@ import Layout from "../components/layout"
 import SpeakerCard from "../components/speakerCard"
 import Header from "../components/headerHome"
 import Agenda from "../components/agenda"
+import LocationMap from "../components/locationMap"
+import Sponsors from "../components/sponsors"
 import Footer from "../components/footer"
 import { graphql } from "gatsby"
 
@@ -75,6 +77,11 @@ export default ({ data }) => {
         ) : (
           ""
         )}
+
+        <LocationMap location={configData.location} />
+
+        <Sponsors sponsorBlocks={configData.sponsor_blocks} />
+
       </div>
 
       <Footer />
@@ -123,6 +130,24 @@ export const query = graphql`
               type
               content
             }
+          }
+        }
+        location {
+          gmaps_iframe_url
+          addresses {
+            name
+            line
+            map_link
+          }
+        }
+        sponsor_blocks {
+          visible
+          name
+          sponsors {
+            name
+            link
+            image
+            height_em
           }
         }
       }
