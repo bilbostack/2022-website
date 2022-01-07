@@ -32,7 +32,7 @@ export default ({ data }) => {
               <span>8&nbsp;ponencias</span>
             </div>
             <div className="col col-md-3  col-sm-6 col-12">
-              <span>~700&nbsp;asistentes</span>
+              <span>~450&nbsp;asistentes</span>
             </div>
             <div className="col col-md-3  col-sm-6 col-12">
               <span>10x&nbsp;networking</span>
