@@ -174,8 +174,8 @@ module.exports =
         }
     ],
     "agenda": {
-        "visible": false,
-        "time_slots": ["9:00-9:20", "9:30-10:20", "10:30-11:20", "11:30-12:00", "12:00-12:50", "13:00-13:50", ">14:00"],
+        "visible": true,
+        "time_slots": ["9:00-9:20", "9:30-10:20", "10:30-11:20", "11:30-12:00", "12:00-12:50", "13:00-13:50", "13:50-14:00"],
         "tracks":[
             {
                 "name": "Sala OE",
@@ -186,15 +186,15 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "cata-oyaneder"
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "edu-tomas"
                     },
                     {
                         "type": "text",
-                        "content": "Networking + café"
+                        "content": "Networking break 😷"
                     },
                     {
                         "type": "speaker",
@@ -202,11 +202,11 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "naiara-abaroa"
                     },
                     {
                         "type": "text",
-                        "content": "Networking + pintxos y poteo"
+                        "content": "Cierre del evento"
                     }                    
                 ]
             },
@@ -219,27 +219,27 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "carlos-hernandez"
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "teodora-bozheva"
                     },
                     {
                         "type": "text",
-                        "content": "Networking + café"
+                        "content": "Networking break 😷"
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "bea-martin"
                     },
                     {
                         "type": "speaker",
-                        "content": "edu-ferro"
+                        "content": "pablo-garaizar"
                     },
                     {
                         "type": "text",
-                        "content": "Networking + pintxos y poteo"
+                        "content": "Cierre del evento"
                     }
                 ]
             }
