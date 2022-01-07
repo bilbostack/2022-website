@@ -331,6 +331,12 @@ module.exports =
                     "link": "https://www.nttdata.com/global/en/",
                     "image": "/sponsors/nttdata.png",
                     "height_em": "2"
+                },
+                {
+                    "name": "Manfred",
+                    "link": "https://www.getmanfred.com/",
+                    "image": "/sponsors/manfred.png",
+                    "height_em": "3"
                 }
             ]
         }
