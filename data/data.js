@@ -327,6 +327,12 @@ module.exports =
                     "height_em": "5"
                 },
                 {
+                    "name": "Olx Autos",
+                    "link": "https://www.olxautos.com/",
+                    "image": "/sponsors/olxautos.png",
+                    "height_em": "3.5"
+                },
+                {
                     "name": "NTT Data",
                     "link": "https://www.nttdata.com/global/en/",
                     "image": "/sponsors/nttdata.png",
@@ -336,7 +342,7 @@ module.exports =
                     "name": "Manfred",
                     "link": "https://www.getmanfred.com/",
                     "image": "/sponsors/manfred.png",
-                    "height_em": "3"
+                    "height_em": "2.8"
                 }
             ]
         }
