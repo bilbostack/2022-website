@@ -345,6 +345,18 @@ module.exports =
                     "height_em": "2.8"
                 }
             ]
+        },
+        {
+            "visible": true,
+            "name": "Colaboramos con",
+            "sponsors": [
+                {
+                    "name": "Peñascal F5",
+                    "link": "http://peñascalf5.org/",
+                    "image": "/collaborations/penyascalf5.png",
+                    "height_em": "5"
+                },
+            ]
         }
     ],
     "footer_links": [
